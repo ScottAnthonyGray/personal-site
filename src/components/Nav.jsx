@@ -7,7 +7,7 @@ import { toaster, Toaster } from "@/components/ui/toaster";
 
 function Nav() {
 
-    const clipboard = useClipboard({ value: "scottanthonygray@outlook.com" })
+    const clipboard = useClipboard({ value: "scott@scottgray.dev" })
 
     const handleCopy = () => {
         clipboard.copy()
