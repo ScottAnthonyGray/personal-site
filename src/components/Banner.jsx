@@ -1,4 +1,5 @@
 import { Container, VStack, Heading, Image } from "@chakra-ui/react"
+import CertComponent from "./CertComponent";
 import Avatar from '../assets/avatar.jpg';
 function Banner() {
   return (
@@ -14,6 +15,7 @@ function Banner() {
             />
                 <Heading size="lg">Scott Gray</Heading>
                 <Heading size="md">Consultant | DevOps | Infrastructure</Heading>
+                <CertComponent />
             </VStack>
         </Container>
   );
